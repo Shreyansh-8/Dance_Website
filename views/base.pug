@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title My Dance Academy
+    block scripts
+    block style 
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/LOGO2.png")
+                | SDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/contact") Contact Us]
+    block content
+    footer#footer 
+        div#foot
+            | copyright © 2021 mydanceacademy.com | All rights reserved
+        div#fImages
+            img(src="/static/Insta.png", alt="footer Imgae", class="imageF")
+            img(src="/static/discord.png", alt="footer Imgae", class="imageF")
